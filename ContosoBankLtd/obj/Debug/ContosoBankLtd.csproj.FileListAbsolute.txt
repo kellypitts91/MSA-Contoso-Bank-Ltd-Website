@@ -1,0 +1,8 @@
+C:\Users\babbu\source\repos\ContosoBankLtd\ContosoBankLtd\bin\ContosoBankLtd.dll.config
+C:\Users\babbu\source\repos\ContosoBankLtd\ContosoBankLtd\bin\ContosoBankLtd.dll
+C:\Users\babbu\source\repos\ContosoBankLtd\ContosoBankLtd\bin\ContosoBankLtd.pdb
+C:\Users\babbu\source\repos\ContosoBankLtd\ContosoBankLtd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\babbu\source\repos\ContosoBankLtd\ContosoBankLtd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\babbu\source\repos\ContosoBankLtd\ContosoBankLtd\obj\Debug\ContosoBankLtd.csproj.CoreCompileInputs.cache
+C:\Users\babbu\source\repos\ContosoBankLtd\ContosoBankLtd\obj\Debug\ContosoBankLtd.dll
+C:\Users\babbu\source\repos\ContosoBankLtd\ContosoBankLtd\obj\Debug\ContosoBankLtd.pdb

@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="style.css" rel="stylesheet" />
+    <title>Contoso Bank Ltd</title>
+    <script type="text/javascript">
+        function openChat() {
+            var frame = document.getElementById("chat-frame");
+            frame.className = "";
+            var img = document.getElementById("chat-button");
+            img.className = "hide";
+        }
+        function closeChat() {
+            var frame = document.getElementById("chat-frame");
+            frame.className = "hide";
+            var img = document.getElementById("chat-button");
+            img.className = "";
+        }
+    </script>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Contoso Bank Ltd</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div>
+        <div class="col-sm-4">
+            <img src="Resources/bank.jpg" class="img-thumbnail" alt="Image of a Bank">
+            <p>info here</p>
+        </div>
+        <div class="col-sm-4">
+            <img src="Resources/savings.jpg" class="img-thumbnail" alt="Image of a piggy bank" />
+            <p>info here</p>
+        </div>
+        <div class="col-sm-4">
+            <img src="Resources/spend.jpg" class="img-thumbnail" alt="Image of a broken piggy bank" />
+            <p>info here</p>
+        </div>
+    </div>
+    <img id="chat-button" src="Resources/Chat.png" onclick="openChat()" />
+    <div id="chat-frame" class="hide">
+        <iframe src='https://webchat.botframework.com/embed/kelly-contoso-bank-bot?s=IdgVp9tSams.cwA.v6o.AMIyUC-fyvNm6IDd-PVf6hJ-nm0GwvXEZbE4bMlpzMo'></iframe>
+        <img src="Resources/minus.png" onclick="closeChat()" />
+    </div>
+</body>
+</html>
