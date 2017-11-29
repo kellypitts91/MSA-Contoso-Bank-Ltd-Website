@@ -2,9 +2,60 @@
 <html>
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="style.css" rel="stylesheet" />
     <title>Contoso Bank Ltd</title>
+    <script type="text/javascript">
+        function openChat() {
+            var frame = document.getElementById("chat-frame");
+            frame.className = "";
+            var img = document.getElementById("chat-button");
+            img.className = "hide";
+        }
+        function closeChat() {
+            var frame = document.getElementById("chat-frame");
+            frame.className = "hide";
+            var img = document.getElementById("chat-button");
+            img.className = "";
+        }
+    </script>
 </head>
 <body>
-    <h1>It is Working!!!</h1>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="#"><img src="Resources/logo.PNG" width="200" /></a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="col-sm-4">
+            <img src="Resources/bank.jpg" class="img-thumbnail" alt="Image of a Bank">
+            <h3>Internet Banking</h3>
+            <p>info here</p>
+        </div>
+        <div class="col-sm-4">
+            <img src="Resources/savings.jpg" class="img-thumbnail" alt="Image of a piggy bank" />
+            <h3>Savings Account</h3>
+            <p>info here</p>
+        </div>
+        <div class="col-sm-4">
+            <img src="Resources/spend.jpg" class="img-thumbnail" alt="Image of a broken piggy bank" />
+            <h3>Loans</h3>
+            <p>info here</p>
+        </div>
+    </div>
+    <img id="chat-button" src="Resources/chat1.png" onclick="openChat()" />
+    <div id="chat-frame" class="hide">
+        <iframe src='https://webchat.botframework.com/embed/kelly-bot?s=wcKN_k69ueY.cwA.oxc.iRLC9aPYIEdpwueYOCLyUCQRP1mUQ9kKeHchQ4mJsY4'></iframe>
+        <img id="minus" src="Resources/minus.png" onclick="closeChat()" />
+    </div>
 </body>
 </html>

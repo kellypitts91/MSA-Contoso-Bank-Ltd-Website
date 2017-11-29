@@ -27,31 +27,35 @@
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">Contoso Bank Ltd</a>
+                <a href="#"><img src="Resources/logo.PNG" width="200" /></a>
             </div>
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
             </ul>
         </div>
     </nav>
-    <div>
+    <div class="container-fluid">
         <div class="col-sm-4">
             <img src="Resources/bank.jpg" class="img-thumbnail" alt="Image of a Bank">
+            <h3>Internet Banking</h3>
             <p>info here</p>
         </div>
         <div class="col-sm-4">
             <img src="Resources/savings.jpg" class="img-thumbnail" alt="Image of a piggy bank" />
+            <h3>Savings Account</h3>
             <p>info here</p>
         </div>
         <div class="col-sm-4">
             <img src="Resources/spend.jpg" class="img-thumbnail" alt="Image of a broken piggy bank" />
+            <h3>Loans</h3>
             <p>info here</p>
         </div>
     </div>
-    <img id="chat-button" src="Resources/Chat.png" onclick="openChat()" />
+    <img id="chat-button" src="Resources/chat1.png" onclick="openChat()" />
     <div id="chat-frame" class="hide">
-        <iframe src='https://webchat.botframework.com/embed/kelly-contoso-bank-bot?s=IdgVp9tSams.cwA.v6o.AMIyUC-fyvNm6IDd-PVf6hJ-nm0GwvXEZbE4bMlpzMo'></iframe>
-        <img src="Resources/minus.png" onclick="closeChat()" />
+        <iframe src='https://webchat.botframework.com/embed/kelly-bot?s=wcKN_k69ueY.cwA.oxc.iRLC9aPYIEdpwueYOCLyUCQRP1mUQ9kKeHchQ4mJsY4'></iframe>
+        <img id="minus" src="Resources/minus.png" onclick="closeChat()" />
     </div>
 </body>
 </html>

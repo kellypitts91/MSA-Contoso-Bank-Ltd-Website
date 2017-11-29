@@ -78,8 +78,10 @@
   <ItemGroup>
     <Content Include="Resources\bank.jpg" />
     <Content Include="index.html" />
-    <Content Include="Resources\Chat.png" />
+    <Content Include="Resources\chat1.png" />
+    <Content Include="Resources\logo.PNG" />
     <Content Include="Resources\minus.png" />
+    <Content Include="Resources\chat.png" />
     <Content Include="Resources\savings.jpg" />
     <Content Include="Resources\spend.jpg" />
     <Content Include="style.css" />
